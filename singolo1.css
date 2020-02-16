@@ -1,0 +1,226 @@
+@font-face {
+    src: url('./vendor/fonts/Lato/Lato-Regular.ttf') format('truetype');
+    font-family: 'Lato';
+    font-style: normal;
+}
+
+@font-face {
+    src: url('./vendor/fonts/Lato/Lato-Black.ttf') format('truetype');
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    src: url('./vendor/fonts/Lato/Lato-Bold.ttf') format('truetype');
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    src: url('./vendor/fonts/Lato/Lato-Light.ttf') format('truetype');
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+}
+
+.page {
+    width: 100%;
+    margin: 0 auto;
+    color: #666d89;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+}
+
+.header {
+    width: 100%;
+    background-color: #2d303a;
+}
+
+.header__content {
+    box-sizing: border-box;
+    max-width: 1020px;
+    padding: 26px 39px 16px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    margin-top: -7.5px;
+    transition: opacity 0.2s ease-in 0.1s;
+}
+
+.header__logo:hover {
+    opacity: 0.6;
+}
+
+.header__decoration {
+    width: 100%;
+    height: 7px;
+    background-color: #323746;
+}
+
+.navigation__list {
+    width: 372px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 0;
+}
+
+.navigation__item {
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: #ffffff;
+    transition: opacity 0.2s ease-in 0.1s;
+}
+
+.navigation__link_theme_red {
+    color: #f06c64;
+}
+
+.navigation__link:hover {
+    opacity: 0.6;
+}
+
+.slider {
+    width: 100%;
+    background-color: #f06c64;
+}
+
+.slider__content {
+    box-sizing: border-box;
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 53px 40px 57px 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slider__decoration {
+    width: 100%;
+    height: 7px;
+    background-color: #ea676b;
+}
+
+.slider__box {
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 54px;
+    padding-right: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slider__chev {
+    transition: opacity 0.2s ease-in 0.1s;
+}
+
+.slider__chev:hover {
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+.services {
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.services__content {
+    box-sizing: border-box;
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 59px 40px 63px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.services__title {
+    margin: 0;
+    margin-bottom: 15.5px;
+    font-size: 29px;
+    line-height: 1.38;
+    font-weight: 900;
+    letter-spacing: 0.01em;
+}
+
+.services__subtitle {
+    margin: 0;
+    margin-bottom: 46.5px;
+    font-size: 17px;
+    line-height: 1.8;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    text-align: justify;
+}
+
+.services__decoration {
+    width: 100%;
+    height: 7px;
+    background-color: #ffffff;
+}
+
+.advantages {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 299px);
+    grid-template-rows: repeat(2, auto);
+    column-gap: 21.6px;
+    row-gap: 32.5px;
+}
+
+.advantages__icon {
+
+    border-radius: 50%;
+    margin-right: 21px;
+}
+
+.advantages__item {
+    display: flex;
+    align-items: flex-start;
+}
+
+.advantages__title {
+    margin: 0;
+    margin-bottom: 11px;
+    font-size: 18px;
+    line-height: 0.9;
+    font-weight: 700;
+    letter-spacing: 0.008em;
+}
+
+.advantages__title_topic_support {
+    padding-left: -2.5px;
+    letter-spacing: 0.003em;
+}
+
+.advantages__text {
+    margin: 0;
+    font-size: 11px;
+    line-height: 1.945;
+    letter-spacing: 0.035em;
+    word-spacing: -0.005em;
+    text-align: justify;
+}
+
+.advantages__text_topic_services {
+    padding-left: 1.5px;
+    letter-spacing: 0.03em;
+}
+
+.advantages__text_topic_layout {
+    padding-left: 1.5px;
+    letter-spacing: 0.03em;
+}

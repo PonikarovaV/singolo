@@ -70,7 +70,7 @@
 
 .potfolio__buttons {
     margin: 0;
-    margin-bottom: 18px;
+    margin-bottom: 19px;
     padding-left: 0;
     list-style: none;
     display: flex;
@@ -113,14 +113,16 @@
 }
 
 .portfolio__images {
+    overflow-y: scroll;
     width: 100%;
+    max-height: 609px;
     margin: 0 auto;
     padding-left: 0;
     list-style: none;
     display: grid;
     grid-template-columns: repeat(4, 220px);
     column-gap: 20px;
-    row-gap: 17px;
+    row-gap: 16px;
 }
 
 .portfolio__decoration {
@@ -227,6 +229,8 @@
 }
 
 .about-us__name {
+    white-space: nowrap;
+    overflow-x: hidden;
     margin: 0;
     margin-bottom: 8px;
     font-size: 18px;

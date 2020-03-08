@@ -1,0 +1,252 @@
+@font-face {
+    src: url('./assets/fonts/Lato/Lato-Regular.ttf') format('truetype');
+    font-family: 'Lato';
+    font-style: normal;
+}
+
+@font-face {
+    src: url('./assets/fonts/Lato/Lato-Black.ttf') format('truetype');
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    src: url('./assets/fonts/Lato/Lato-Bold.ttf') format('truetype');
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    src: url('./assets/fonts/Lato/Lato-Light.ttf') format('truetype');
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+}
+
+.page {
+    width: 100%;
+    margin: 0 auto;
+    color: #666d89;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+}
+
+.contact-us {
+    width: 100%;
+    background-color: #f06c64;
+    color: #f0d8d9;
+}
+
+.contact-us__content {
+    box-sizing: border-box;
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 60px 40px 58px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us__title {
+    margin: 0;
+    margin-bottom: 18px;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: start;
+    letter-spacing: 0.002em;
+}
+
+.contact-us__subtitle {
+    margin: 0;
+    margin-bottom: 43px;
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 300;
+    text-align: justify;
+    letter-spacing: 0.0017em;
+    word-spacing: 0.001em;
+}
+
+.form-block {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 620px 300px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input {
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    padding: 13px 15px;
+    background-color: #d6564f;
+    border: none;
+    border-radius: 5px;
+}
+
+.form__input::placeholder {
+    color: #ec7e7f;
+    font-size: 11.5px;
+    line-height: 1;
+    font-weight: normal;
+    text-align: justify;
+    letter-spacing: 0.002em;
+    word-spacing: 0.001em;
+}
+
+.form__textarea {
+    box-sizing: border-box;
+    height: 202px;
+    margin-bottom: 10px;
+    padding: 13px 15px;
+    background-color: #d6564f;
+    border: none;
+    border-radius: 5px;
+}
+
+.form__textarea::placeholder {
+    color: #ec7e7f;
+    font-size: 11.5px;
+    line-height: 1;
+    font-weight: normal;
+    text-align: justify;
+    letter-spacing: 0.002em;
+}
+
+.form-block__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-block__link {
+    text-decoration: none;
+    color: #efd7d9;
+}
+
+.form-block__title {
+    margin: 0;
+    margin-bottom: 8px;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: start;
+    letter-spacing: 0.002em;
+}
+
+.form-block__subtitle {
+    margin: 0;
+    margin-bottom: 23px;
+    font-size: 11px;
+    line-height: 2.05;
+    font-weight: 300;
+    text-align: justify;
+    letter-spacing: 0.043em;
+    word-spacing: 0.0015em;
+}
+
+.form-block__link {
+    margin-bottom: 8px;
+    font-size: 11px;
+    line-height: 1.2;
+    font-weight: 300;
+    text-align: justify;
+    letter-spacing: 0.043em;
+    word-spacing: 0.0015em;
+    display: flex;
+    align-items: flex-start;
+    transition: 0.15s ease-in opacity;
+}
+
+.form-block__link:hover {
+    opacity: 0.6;
+}
+
+.form-block__link:active {
+    opacity: 1;
+}
+
+.form-block__image {
+    margin-right: 10px;
+}
+
+.social {
+    margin: 0;
+    margin-right: -4px;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+}
+
+.social__item {
+    margin-right: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__item:last-child {
+    margin-right: 0;
+}
+
+.social__link {
+    width: 100%;
+    display: block;
+}
+
+.social__icon {
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    transition: 0.15s ease-in opacity;
+}
+
+.social__icon:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.social__icon:active {
+    opacity: 1;
+}
+
+.social__icon_google {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.footer {
+    width: 100%;
+    background-color: #2d2f39;
+}
+
+.footer__content {
+    box-sizing: border-box;
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 18px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-us__decoration {
+    width: 100%;
+    height: 5px;
+    background-color: #ea676b;
+}
+
+.copyright {
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 300;
+    text-align: justify;
+    letter-spacing: 0.001em;
+}

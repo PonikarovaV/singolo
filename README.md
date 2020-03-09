@@ -1,6 +1,6 @@
 # Singolo
 
-[Singolo](https://ponikarovav.github.io/singolo/index)
+[Singolo](https://ponikarovav.github.io/singolo/index.html)
 
 Основное требование к проекту - Pixel Perfect.
 

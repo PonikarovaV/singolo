@@ -488,7 +488,7 @@
     box-sizing: border-box;
     max-width: 1020px;
     margin: 0 auto;
-    padding: 60px 40px 58px;
+    padding: 60px 40px 27px;
     display: flex;
     flex-direction: column;
 }
@@ -620,6 +620,30 @@
 
 .form-block__image {
     margin-right: 10px;
+}
+
+.form__button {
+    box-sizing: border-box;
+    width: min-content;
+    padding: 5px 8px;
+    background-color: #efd7d9;
+    border-radius: 5px;
+    color: #ec7e7f;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    transition: 0.15s ease-in opacity;
+}
+
+.form__button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.form__button:active {
+    opacity: 1;
 }
 
 .footer {

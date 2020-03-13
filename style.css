@@ -34,6 +34,7 @@
 }
 
 .header {
+    z-index: 100;
     position: sticky;
     top: 0;
     width: 100%;
@@ -136,9 +137,9 @@
     max-width: 1020px;
     margin: 0 auto;
     padding: 53px 40px 57px 42px;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; */
 }
 
 .slider__decoration {
@@ -148,13 +149,134 @@
 }
 
 .slider__box {
+    position: relative;
     box-sizing: border-box;
-    width: 100%;
+    max-width: 100%;
     padding-left: 54px;
     padding-right: 55px;
-    display: flex;
-    align-items: center;
+    display: block;
+}
+
+.slider__toggle {
+    position: absolute;
+    z-index: 5;
+}
+
+.slider__toggle>path:hover {
+    cursor: pointer;
+    fill: #f0d8d9;
+}
+
+.slider__toggle_left {
+    top: 50%;
+    left: 10px;
+}
+
+.slider__toggle_right {
+    top: 50%;
+    right: 10px;
+}
+
+.slide {
+    width: 100%;
     justify-content: space-between;
+    align-items: center;
+    transition: display 0.2s ease-in 0.1s;
+}
+
+.slide_visible {
+    display: flex;
+}
+
+.slide_invisible {
+    display: none;
+}
+
+.test {
+    width: 100%;
+    height: 300px;
+    background-image: url('./assets/images/singolo_images/Slide-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.phone {
+    position: relative;
+}
+
+.phone_vertical {
+    width: 240px;
+    height: 483px;
+}
+
+.phone_horizontal {
+    width: 483px;
+    height: 240px;
+}
+
+.phone__shadow {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.phone__frame {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.phone__display {
+    z-index: 2;
+    position: absolute;
+}
+
+.phone__display_vertical {
+    top: 65px;
+    left: 14px;
+    bottom: 60px;
+    right: 14px;
+}
+
+.phone__display_horizontal {
+    top: 14px;
+    left: 60px;
+    bottom: 14px;
+    right: 60px;
+}
+
+.phone__display_inactive {
+    display: none;
+}
+
+.phone__button {
+    z-index: 3;
+    position: absolute;
+    width: 42px;
+    height: 42px;
+}
+
+.phone__button_vertical {
+    left: 50%;
+    bottom: 33px;
+    transform: translateX(-78%);
+}
+
+.phone__button_horizontal {
+    left: 8px;
+    bottom: 50%;
+    transform: translateY(22%);
+}
+
+.phone__button:hover {
+    cursor: pointer;
 }
 
 .slider__chev {
@@ -335,6 +457,11 @@
 .portfolio__button:active {
     color: #767e9e;
     border-color: #767e9e;
+}
+
+.portfolio__button_active {
+    color: white;
+    border-color: white;
 }
 
 .portfolio__images {

@@ -40,12 +40,37 @@
         
             <section class="slider">
                 <div class="slider__content">
-                    <img class="slider__chev" src="./assets/images/chev_left.svg" alt="Chev">
                     <div class="slider__box">
-                        <img class="slider__image" src="./assets/images/iPhone_Vertical.png" alt="Phone">
-                        <img class="slider__image" src="./assets/images/iPhone_Horizontal.png" alt="Phone">
+                        <svg class="slider__toggle slider__toggle_left" width="16" height="27" viewBox="0 0 16 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.3022 4.0077C16.2333 3.09077 16.2325 1.64471 15.3003 0.728736C14.3113 -0.242912 12.6634 -0.242912 11.6745 0.728737L0.955147 11.2608C-0.318384 12.5121 -0.318381 14.4879 0.955149 15.7392L11.6745 26.2713C12.6634 27.2429 14.3113 27.2429 15.3003 26.2713C16.2325 25.3553 16.2333 23.9092 15.3022 22.9923L7.93355 15.7366C6.66347 14.486 6.66347 12.514 7.93355 11.2634L15.3022 4.0077Z" fill="#E94348"/>
+                        </svg>
+                        <svg class="slider__toggle slider__toggle_right" width="16" height="27" viewBox="0 0 16 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.697849 22.9923C-0.233349 23.9092 -0.232514 25.3553 0.699743 26.2713C1.68867 27.2429 3.33657 27.2429 4.32549 26.2713L15.0449 15.7392C16.3184 14.4879 16.3184 12.5121 15.0449 11.2608L4.32549 0.728735C3.33657 -0.242913 1.68867 -0.242911 0.699746 0.728737C-0.232511 1.64471 -0.233347 3.09077 0.69785 4.00769L8.06645 11.2634C9.33653 12.514 9.33653 14.486 8.06645 15.7366L0.697849 22.9923Z" fill="#E94348"/>
+                        </svg>
+                        <div class="slide slide_visible">
+                            <div class="phone phone_vertical">
+                                <img class="phone__shadow" src="./assets/images/singolo_phones/phone-vertical-shadow.png" alt="Тень телефона">
+                                <img class="phone__frame" src="./assets/images/singolo_phones/phone-vertical-frame.png" alt="Рамка телефона">
+                                <img class="phone__display phone__display_vertical" src="./assets/images/singolo_phones/phone-vertical-display.png" alt="Экран телефона">
+                                <img class="phone__button phone__button_vertical" src="./assets/images/singolo_phones/home-button.svg" alt="Кнопка телефона">
+                            </div>
+                            <div class="phone phone_horizontal">
+                                <img class="phone__shadow" src="./assets/images/singolo_phones/phone-horizontal-shadow.png" alt="Тень телефона">
+                                <img class="phone__frame" src="./assets/images/singolo_phones/phone-horizontal-frame.png" alt="Рамка телефона">
+                                <img class="phone__display phone__display_horizontal" src="./assets/images/singolo_phones/phone-horizontal-display.png" alt="Экран телефона">
+                                <img class="phone__button phone__button_horizontal" src="./assets/images/singolo_phones/home-button.svg" alt="Кнопка телефона">
+                            </div>
+                        </div>
+                        <div class="slide slide_invisible">
+                            <div class="test">слайд2</div>
+                        </div>
+                        <div class="slide slide_invisible">
+                            <div class="test">слайд3</div>
+                        </div>
+                        <div class="slide slide_invisible">
+                            <div class="test">слайд4</div>
+                        </div>
                     </div>
-                    <img class="slider__chev" src="./assets/images/chev_right.svg" alt="Chev">
                 </div>
                 <div class="slider__decoration"></div>
             </section>
@@ -107,7 +132,7 @@
                     <p class="portfolio__subtitle">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
                     <ul class="potfolio__buttons">
                         <li class="portfolio__item">
-                            <button class="portfolio__button">All</button>
+                            <button class="portfolio__button portfolio__button_active">All</button>
                         </li>
                         <li class="portfolio__item">
                             <button class="portfolio__button">Web Design</button>
@@ -120,7 +145,7 @@
                         </li>
                     </ul>
                     <ul class="portfolio__images">
-                        <li class="portfolio__item">
+                        <!-- <li class="portfolio__item">
                             <img class="portfolio__image" src="./assets/images/singolo2_images/pic_01.jpg" alt="Жёлтый кораблик">
                         </li>
                         <li class="portfolio__item">
@@ -167,7 +192,7 @@
                         </li>
                         <li class="portfolio__item">
                             <img class="portfolio__image" src="./assets/images/singolo2_images/pic_12.jpg" alt="Что-то упало на пол и стекло разбилось">
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
                 <div class="portfolio__decoration"></div>

@@ -112,15 +112,16 @@
 .navigation__link {
     text-decoration: none;
     color: #ffffff;
-    transition: opacity 0.2s ease-in 0.1s;
+    transition: 0.2s ease-in color;
 }
 
-.navigation__link_theme_red {
+.navigation__link_active {
+    text-decoration: overline;
     color: #f06c64;
 }
 
 .navigation__link:hover {
-    opacity: 0.6;
+    color: #f06c64;
 }
 
 .slider {

@@ -387,15 +387,16 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    margin-right: 20px;
 }
 
 .advantages__item {
     display: flex;
     align-items: flex-start;
+    justify-content: space-between;
 }
 
 .advantages__title {
+    max-width: 220px;
     margin: 0;
     margin-bottom: 11px;
     font-size: 18px;
@@ -404,28 +405,14 @@
     letter-spacing: 0.008em;
 }
 
-.advantages__title_topic_support {
-    padding-left: -2.5px;
-    letter-spacing: 0.003em;
-}
-
 .advantages__text {
+    max-width: 220px;
     margin: 0;
     font-size: 11px;
     line-height: 1.945;
     letter-spacing: 0.035em;
     word-spacing: -0.005em;
     text-align: justify;
-}
-
-.advantages__text_topic_services {
-    padding-left: 1.5px;
-    letter-spacing: 0.03em;
-}
-
-.advantages__text_topic_layout {
-    padding-left: 1.5px;
-    letter-spacing: 0.03em;
 }
 
 .portfolio {

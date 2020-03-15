@@ -1,40 +1,52 @@
 "use strict";
 const porfolioGallery = [
     {
-        link: './assets/images/singolo2_images/pic_01.jpg'
+        link: './assets/images/singolo2_images/pic_01.jpg',
+        alt: 'Жёлтый кораблик'
     },
     {
-        link: './assets/images/singolo2_images/pic_02.jpg'
+        link: './assets/images/singolo2_images/pic_02.jpg',
+        alt: 'Счастливая зелёная девочка'
     },
     {
-        link: './assets/images/singolo2_images/pic_03.jpg'
+        link: './assets/images/singolo2_images/pic_03.jpg',
+        alt: 'Город на луне'
     },
     {
-        link: './assets/images/singolo2_images/pic_04.jpg'
+        link: './assets/images/singolo2_images/pic_04.jpg',
+        alt: 'Робот, который мечтает о сердце'
     },
     {
-        link: './assets/images/singolo2_images/pic_05.jpg'
+        link: './assets/images/singolo2_images/pic_05.jpg',
+        alt: 'Странные танцующие животные'
     },
     {
-        link: './assets/images/singolo2_images/pic_06.jpg'
+        link: './assets/images/singolo2_images/pic_06.jpg',
+        alt: 'Завод'
     },
     {
-        link: './assets/images/singolo2_images/pic_07.jpg'
+        link: './assets/images/singolo2_images/pic_07.jpg',
+        alt: 'Чудики и техника'
     },
     {
-        link: './assets/images/singolo2_images/pic_08.jpg'
+        link: './assets/images/singolo2_images/pic_08.jpg',
+        alt: 'Курочки на дереве'
     },
     {
-        link: './assets/images/singolo2_images/pic_09.jpg'
+        link: './assets/images/singolo2_images/pic_09.jpg',
+        alt: 'Чудо-Юдо'
     },
     {
-        link: './assets/images/singolo2_images/pic_10.jpg'
+        link: './assets/images/singolo2_images/pic_10.jpg',
+        alt: 'Слова'
     },
     {
-        link: './assets/images/singolo2_images/pic_11.jpg'
+        link: './assets/images/singolo2_images/pic_11.jpg',
+        alt: 'Белый монстр'
     },
     {
-        link: './assets/images/singolo2_images/pic_12.jpg'
+        link: './assets/images/singolo2_images/pic_12.jpg',
+        alt: 'Что-то упало на пол и стекло разбилось'
     }
 ];
 
@@ -125,7 +137,7 @@ function createGallery(image) {
 function createTemplate(image) {
     return `
             <li class="portfolio__item">
-                <img class="portfolio__image" src="${image.link}">
+                <img class="portfolio__image" src="${image.link}" alt="${image.alt}">
             </li>
            `
 }

@@ -1,25 +1,25 @@
 @font-face {
-    src: url('./vendor/fonts/Lato/Lato-Regular.ttf') format('truetype');
+    src: url('./assets/fonts/Lato/Lato-Regular.ttf') format('truetype');
     font-family: 'Lato';
     font-style: normal;
 }
 
 @font-face {
-    src: url('./vendor/fonts/Lato/Lato-Black.ttf') format('truetype');
+    src: url('./assets/fonts/Lato/Lato-Black.ttf') format('truetype');
     font-family: 'Lato';
     font-style: normal;
     font-weight: 900;
 }
 
 @font-face {
-    src: url('./vendor/fonts/Lato/Lato-Bold.ttf') format('truetype');
+    src: url('./assets/fonts/Lato/Lato-Bold.ttf') format('truetype');
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
 }
 
 @font-face {
-    src: url('./vendor/fonts/Lato/Lato-Light.ttf') format('truetype');
+    src: url('./assets/fonts/Lato/Lato-Light.ttf') format('truetype');
     font-family: 'Lato';
     font-style: normal;
     font-weight: 300;
@@ -41,20 +41,11 @@
 .header__content {
     box-sizing: border-box;
     max-width: 1020px;
-    padding: 26px 39px 16px;
+    padding: 31px 39px 30px 40px;
     margin: 0 auto;
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
-}
-
-.header__logo {
-    margin-top: -7.5px;
-    transition: opacity 0.2s ease-in 0.1s;
-}
-
-.header__logo:hover {
-    opacity: 0.6;
 }
 
 .header__decoration {
@@ -63,19 +54,59 @@
     background-color: #323746;
 }
 
+.header__link {
+    text-decoration: none;
+}
+
+.header__logo {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 1.1;
+    font-weight: normal;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    transition: opacity 0.2s ease-in 0.1s;
+}
+
+.header__logo:hover {
+    opacity: 0.6;
+}
+
+.header__logo_theme_red {
+    color: #f06c64;
+}
+
 .navigation__list {
     width: 372px;
+    margin: 0;
+    padding-left: 0;
     display: flex;
     justify-content: space-between;
     list-style: none;
-    padding-left: 0;
 }
 
 .navigation__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     text-transform: uppercase;
     font-size: 12px;
     line-height: 1.2;
     letter-spacing: -0.02em;
+}
+
+.navigation__item::before {
+    content: '';
+    display: block;
+    margin-right: 15px;
+    border: 1.5px solid #3a3e4d;
+    border-radius: 50%;
+    background-color: #3a3e4d;
+}
+
+.navigation__item:first-child::before {
+    content: none;
 }
 
 .navigation__link {
@@ -182,7 +213,8 @@
 }
 
 .advantages__icon {
-
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     margin-right: 21px;
 }

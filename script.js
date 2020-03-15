@@ -1,51 +1,51 @@
 "use strict";
 const porfolioGallery = [
     {
-        link: './assets/images/singolo2_images/pic_01.jpg',
+        link: './assets/images/singolo_images/portfolio-1.jpg',
         alt: 'Жёлтый кораблик'
     },
     {
-        link: './assets/images/singolo2_images/pic_02.jpg',
+        link: './assets/images/singolo_images/portfolio-2.jpg',
         alt: 'Счастливая зелёная девочка'
     },
     {
-        link: './assets/images/singolo2_images/pic_03.jpg',
+        link: './assets/images/singolo_images/portfolio-3.jpg',
         alt: 'Город на луне'
     },
     {
-        link: './assets/images/singolo2_images/pic_04.jpg',
+        link: './assets/images/singolo_images/portfolio-4.jpg',
         alt: 'Робот, который мечтает о сердце'
     },
     {
-        link: './assets/images/singolo2_images/pic_05.jpg',
+        link: './assets/images/singolo_images/portfolio-5.jpg',
         alt: 'Странные танцующие животные'
     },
     {
-        link: './assets/images/singolo2_images/pic_06.jpg',
+        link: './assets/images/singolo_images/portfolio-6.jpg',
         alt: 'Завод'
     },
     {
-        link: './assets/images/singolo2_images/pic_07.jpg',
+        link: './assets/images/singolo_images/portfolio-7.jpg',
         alt: 'Чудики и техника'
     },
     {
-        link: './assets/images/singolo2_images/pic_08.jpg',
+        link: './assets/images/singolo_images/portfolio-8.jpg',
         alt: 'Курочки на дереве'
     },
     {
-        link: './assets/images/singolo2_images/pic_09.jpg',
+        link: './assets/images/singolo_images/portfolio-9.jpg',
         alt: 'Чудо-Юдо'
     },
     {
-        link: './assets/images/singolo2_images/pic_10.jpg',
+        link: './assets/images/singolo_images/portfolio-10.jpg',
         alt: 'Слова'
     },
     {
-        link: './assets/images/singolo2_images/pic_11.jpg',
+        link: './assets/images/singolo_images/portfolio-11.jpg',
         alt: 'Белый монстр'
     },
     {
-        link: './assets/images/singolo2_images/pic_12.jpg',
+        link: './assets/images/singolo_images/portfolio-12.jpg',
         alt: 'Что-то упало на пол и стекло разбилось'
     }
 ];

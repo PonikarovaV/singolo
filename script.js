@@ -116,10 +116,6 @@ function toggleSliderStyle(currentSlide, nextSlide) {
         
     slider.style.backgroundColor = `${slides[nextSlide].getAttribute('data-color')}`;
     sliderLine.style.backgroundColor = `${slides[nextSlide].getAttribute('data-color')}`;
-    sliderToggle.forEach( button => {
-        button.setAttribute('fill', 'white');
-        button.setAttribute('style', 'opacity: 0.5');
-    });
 }
 
 /** Вставка шаблона карточки блока Portfolio в разметку */

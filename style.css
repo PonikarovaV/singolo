@@ -158,7 +158,12 @@
     z-index: 7;
 }
 
-.slider__toggle>path:hover {
+.slider__path {
+    fill: black;
+    opacity: 0.2;
+}
+
+.slider__path:hover {
     cursor: pointer;
     fill: #f0d8d9;
 }
@@ -728,6 +733,7 @@
 
 .form__textarea {
     box-sizing: border-box;
+    overflow: hidden;
     height: 202px;
     margin-bottom: 10px;
     padding: 13px 15px;
@@ -884,7 +890,7 @@
 .popup__info {
     box-sizing: border-box;
     width: 50%;
-    height: 50%;
+    height: 60%;
     padding: 30px 20px;
     border-radius: 8px;
     background-color: #efd7d9;
@@ -912,6 +918,10 @@
     font-weight: normal;
     text-align: center;
     letter-spacing: 0.002em;
+}
+
+.popup__text_description {
+    overflow-y: scroll;
 }
 
 .popup__button {
